@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro do vendedor</title>
+</head>
+<body>
+
+<form id="cadastrovendedor" method="post" action="cadastrovendedor.jsp">
+
+<div> <p> Cadastro Vendedor </p></div>
+
+	<div>
+	   		<label for="nomevendedor"> Nome</label>         
+            <input type="text" name="nome" id="nome">
+    </div>
+    <div>         
+        	<label for="emailvendedor"> Email</label> 
+            <input type="text" name="email" id="email">
+    </div> 
+    <div>
+            <label for="telefonevendedor"> Telefone</label>      
+            <input type="text" name="telefone" id="telefone">
+    </div>
+    <div>         
+           <label for="categoria"> Categoria</label> 
+           <label><input type="radio" name="categoria" id="categoria" value="V">Vendedor</label>
+           <label><input type="radio" name="categoria" id="vendedor" value="G">Gerente</label>
+    </div>
+    
+    <input type="submit" value="enviar">
+
+</form>
+</body>
+</html>
